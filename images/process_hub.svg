@@ -1,0 +1,70 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="48" fill="#0D1728"/>
+  <circle cx="200" cy="150" r="140" fill="#4ED2C9" fill-opacity="0.12"/>
+  <circle cx="1050" cy="700" r="180" fill="#F6B93B" fill-opacity="0.14"/>
+  <!-- Connection lines -->
+  <path d="M320 250L480 250" stroke="#4ED2C9" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M480 250L640 250" stroke="#4ED2C9" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M640 250L800 250" stroke="#F6B93B" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M240 380L400 380" stroke="#8DA6FF" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M400 380L560 380" stroke="#8DA6FF" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M560 380L720 380" stroke="#8DA6FF" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M300 520L480 520" stroke="#4ED2C9" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M480 520L660 520" stroke="#4ED2C9" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <path d="M660 520L840 520" stroke="#F6B93B" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+  <!-- Process boxes row 1 -->
+  <rect x="250" y="200" width="70" height="100" rx="16" fill="#1D3455" stroke="#4ED2C9" stroke-width="3"/>
+  <circle cx="285" cy="235" r="8" fill="#4ED2C9"/>
+  <rect x="265" y="255" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="410" y="200" width="70" height="100" rx="16" fill="#1D3455" stroke="#8DA6FF" stroke-width="3"/>
+  <circle cx="445" cy="235" r="8" fill="#8DA6FF"/>
+  <rect x="425" y="255" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="570" y="200" width="70" height="100" rx="16" fill="#1D3455" stroke="#F6B93B" stroke-width="3"/>
+  <circle cx="605" cy="235" r="8" fill="#F6B93B"/>
+  <rect x="585" y="255" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="730" y="200" width="70" height="100" rx="16" fill="#1D3455" stroke="#4ED2C9" stroke-width="3"/>
+  <circle cx="765" cy="235" r="8" fill="#4ED2C9"/>
+  <rect x="745" y="255" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <!-- Process boxes row 2 -->
+  <rect x="190" y="330" width="70" height="100" rx="16" fill="#213A5D" stroke="#F6B93B" stroke-width="3"/>
+  <circle cx="225" cy="365" r="8" fill="#F6B93B"/>
+  <rect x="205" y="385" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="350" y="330" width="70" height="100" rx="16" fill="#213A5D" stroke="#4ED2C9" stroke-width="3"/>
+  <circle cx="385" cy="365" r="8" fill="#4ED2C9"/>
+  <rect x="365" y="385" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="510" y="330" width="70" height="100" rx="16" fill="#213A5D" stroke="#8DA6FF" stroke-width="3"/>
+  <circle cx="545" cy="365" r="8" fill="#8DA6FF"/>
+  <rect x="525" y="385" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="670" y="330" width="70" height="100" rx="16" fill="#213A5D" stroke="#F6B93B" stroke-width="3"/>
+  <circle cx="705" cy="365" r="8" fill="#F6B93B"/>
+  <rect x="685" y="385" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <!-- Process boxes row 3 -->
+  <rect x="250" y="470" width="70" height="100" rx="16" fill="#1D3455" stroke="#8DA6FF" stroke-width="3"/>
+  <circle cx="285" cy="505" r="8" fill="#8DA6FF"/>
+  <rect x="265" y="525" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="410" y="470" width="70" height="100" rx="16" fill="#1D3455" stroke="#4ED2C9" stroke-width="3"/>
+  <circle cx="445" cy="505" r="8" fill="#4ED2C9"/>
+  <rect x="425" y="525" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="570" y="470" width="70" height="100" rx="16" fill="#1D3455" stroke="#F6B93B" stroke-width="3"/>
+  <circle cx="605" cy="505" r="8" fill="#F6B93B"/>
+  <rect x="585" y="525" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <rect x="730" y="470" width="70" height="100" rx="16" fill="#1D3455" stroke="#8DA6FF" stroke-width="3"/>
+  <circle cx="765" cy="505" r="8" fill="#8DA6FF"/>
+  <rect x="745" y="525" width="40" height="5" rx="2.5" fill="#9BB0CF" opacity="0.8"/>
+  <!-- Status indicator -->
+  <circle cx="900" cy="300" r="60" fill="rgba(78, 210, 201, 0.1)" stroke="#4ED2C9" stroke-width="2"/>
+  <text x="900" y="310" text-anchor="middle" font-size="24" font-weight="bold" fill="#4ED2C9">80%</text>
+  <!-- Legend -->
+  <rect x="900" y="420" width="280" height="280" rx="24" fill="rgba(13, 24, 43, 0.8)" stroke="#284160" stroke-width="2"/>
+  <text x="920" y="450" font-size="14" font-weight="700" fill="#EEF4FF" letter-spacing="0.05em">STATUS</text>
+  <circle cx="920" cy="475" r="6" fill="#4ED2C9"/>
+  <text x="945" y="482" font-size="12" fill="#D8E4F6">In Progress</text>
+  <circle cx="920" cy="510" r="6" fill="#8DA6FF"/>
+  <text x="945" y="517" font-size="12" fill="#D8E4F6">Pending</text>
+  <circle cx="920" cy="545" r="6" fill="#F6B93B"/>
+  <text x="945" y="552" font-size="12" fill="#D8E4F6">Completed</text>
+  <line x1="920" y1="575" x2="1160" y2="575" stroke="#284160" stroke-width="1"/>
+  <text x="920" y="605" font-size="12" fill="#9BB0CF" font-weight="600">Tasks: 24</text>
+  <text x="920" y="630" font-size="12" fill="#9BB0CF" font-weight="600">Teams: 5</text>
+  <text x="920" y="655" font-size="12" fill="#9BB0CF" font-weight="600">Progress: 80%</text>
+</svg>

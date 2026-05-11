@@ -4,260 +4,294 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
 
-    <!-- Bootstrap Js -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/d336742d5e.js"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
 
-    <title>Portfolio</title>
+    <title>Nafiz Imtiaz | Portfolio</title>
   </head>
 
   <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
-      <a class="navbar-brand" href="#">
-        <i class="fas fa-code fa-2x text-warning"></i>
-        <span class="pl-2 text-white">Portfolio</span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#social-media">Social Media</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#resume">Resume</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark site-nav">
+      <div class="container">
+        <a class="navbar-brand brand-mark" href="#home">
+          <span class="brand-icon"><i class="fas fa-code"></i></span>
+          <span>Nafiz Imtiaz</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link nav-cta" href="mailto:nafiz.imtiaz3@northsouth.edu">Hire Me</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <!-- Main Container -->
-    <div class="main-container container">
-      <div class="row main_row">
-        <div class="col-lg-6 col-md-12">
-          <h2 class="text-white">Hello, I'm</h2>
-          <h1 class="text-warning m-heading">Nafiz Imtiaz</h1>
-          <h2 class="text-white">Software Engineer</h2>
-        </div>
-        <div class="col-lg-6 col-md-12">
-          <img src="./images/Nafiz.png" alt="" class="img-fluid" />
-        </div>
-      </div>
-    </div>
-
-    <!-- About Section -->
-    <div id="about" class="container about p-5">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <img src="./images/about_img.svg" class="img-fluid" />
-        </div>
-        <div class="col-lg-6 col-md-12 pl-lg-5 pt-5 pb-5 text-white">
-          <h3 class="text-warning">About Me</h3>
-          <h1 class="m-heading">Hello! I’m Nafiz Imtiaz</h1>
-          <p>
-            a passionate Software Engineer currently pursuing my Bachelor's
-            degree in Computer Science and Engineering (CSE) at North South
-            University, within the ECE department. My academic journey has been
-            focused on building a strong foundation in software development,
-            algorithms, and problem-solving.
-          </p>
-          <br />
-          <p>
-            With a deep interest in technology and innovation, I am constantly
-            exploring new programming languages, tools, and frameworks to
-            enhance my skills. I enjoy tackling complex technical challenges and
-            creating efficient solutions that have a positive impact.
-          </p>
-          <br />
-          <p>
-            In addition to my coursework, I am actively involved in hands-on
-            projects, both individually and in collaboration with others. These
-            projects have helped me grow as a developer and taught me how to
-            adapt to evolving industry standards.
-          </p>
-          <br />
-          <p>
-            Outside of academics, I am always seeking new opportunities to apply
-            my knowledge in real-world scenarios. My goal is to become a
-            well-rounded software engineer, contributing to meaningful projects
-            and making a difference in the tech world.
-          </p>
-          <br />
-          <p>
-            Feel free to explore my portfolio to see some of the projects I've
-            worked on!
-          </p>
-          <button class="btn btn-outline-warning">Learn More</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Projects Section -->
-    <div id="projects" class="container mt-5 pt-5">
-      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-5">
-          <div class="card" style="width: 100%">
-            <img
-              src="./images/fitness.svg"
-              class="card-img-top"
-              style="height: 13rem"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Gym Management System</h5>
-              <p class="card-text">
-                The Gym Management System is designed to streamline and enhance
-                the management of gym operations, providing an efficient
-                platform for handling members, trainers, payments, and
-                membership packages.
+    <main>
+      <section id="home" class="hero section-shell">
+        <div class="container">
+          <div class="row align-items-center hero-grid">
+            <div class="col-lg-6 hero-copy">
+              <span class="eyebrow">Software Engineer in progress</span>
+              <h1>
+                Building practical software with clean structure and sharp
+                attention to detail.
+              </h1>
+              <p class="lead-copy">
+                I am Nafiz Imtiaz, a Computer Science and Engineering student at
+                North South University. I like turning ideas into useful tools,
+                especially in web apps, internal systems, and project workflows.
               </p>
-              <a href="https://github.com/Nafiz204/Gym-Management-System" class="btn btn-warning">See Project</a>
+              <div class="hero-actions">
+                <a class="btn btn-warning btn-lg" href="#projects">View Projects</a>
+                <a class="btn btn-outline-light btn-lg" href="#contact">Contact Me</a>
+              </div>
+              <div class="hero-stats">
+                <div class="stat-card">
+                  <span class="stat-value">3+</span>
+                  <span class="stat-label">projects shipped</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-value">CSE</span>
+                  <span class="stat-label">North South University</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-value">Web</span>
+                  <span class="stat-label">apps and systems</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 hero-visual">
+              <div class="portrait-frame">
+                <img src="./images/Nafiz.png" alt="Nafiz Imtiaz portrait" class="img-fluid" />
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mb-5">
-          <div class="card" style="width: 100%">
-            <img
-              src="images/web_scraping.svg"
-              class="card-img-top img-fluid"
-              alt="..."
-              style="height: 13rem"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Library Assistant Tool</h5>
-              <p class="card-text">
-                The Library Management System is a software application designed
-                to automate and manage various aspects of a library's
-                operations. It provides librarians and library staff with a
-                centralized platform to efficiently handle tasks.
+      </section>
+
+      <section id="about" class="section-shell">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">About</span>
+            <h2>Focused on solving real problems, not just writing code.</h2>
+          </div>
+          <div class="row align-items-center about-card">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <img src="./images/about_img.svg" alt="Working illustration" class="img-fluid about-illustration" />
+            </div>
+            <div class="col-lg-7 text-white">
+              <p>
+                I am currently pursuing my Bachelor's degree in Computer Science
+                and Engineering at North South University. My focus is on
+                software development, algorithms, and building systems that are
+                easy to use and maintain.
               </p>
-              <a href="https://github.com/Nafiz204/Library_Assistant_Tool" class="btn btn-warning">See Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-5">
-          <div class="card" style="width: 100%">
-            <img
-              src="images/Office.jpg"
-              class="card-img-top"
-              alt="..."
-              style="height: 13rem"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Office Management System</h5>
-              <p class="card-text">
-                The Office Management System is designed to streamline office
-                operations, providing tools for managing tasks, schedules, and
-                communications efficiently. It helps improve productivity within
-                the office environment.
+              <p>
+                I enjoy learning new tools, refining my approach to problem
+                solving, and iterating on projects until they feel practical and
+                polished.
               </p>
-              <a href="https://github.com/Nafiz204/Office-Management-System" class="btn btn-warning">See Project</a>
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="projects" class="section-shell">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Projects</span>
+            <h2>Selected work with a focus on utility and clarity.</h2>
+          </div>
+          <div class="row project-grid">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <article class="project-card h-100">
+                <img src="./images/process_hub.svg" class="project-media" alt="Process Hub dashboard illustration" />
+                <div class="project-body">
+                  <div class="project-meta">Workflow platform</div>
+                  <h3>Process Hub</h3>
+                  <p>
+                    A centralized workflow hub for tracking processes, tasks,
+                    and team execution from one place.
+                  </p>
+                  <div class="project-tags">
+                    <span>Workflow</span>
+                    <span>Tracking</span>
+                    <span>Dashboard</span>
+                  </div>
+                  <a href="https://github.com/Nafiz204/Process_Hub" class="btn btn-warning btn-block">See Project</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <article class="project-card h-100">
+                <img src="./images/lms_task_planner.svg" class="project-media" alt="LMS intelligent task planner illustration" />
+                <div class="project-body">
+                  <div class="project-meta">Learning system</div>
+                  <h3>LMS with Intelligent Task Planner</h3>
+                  <p>
+                    A learning management experience with smart task planning
+                    to help organize coursework and deadlines.
+                  </p>
+                  <div class="project-tags">
+                    <span>Learning</span>
+                    <span>Planning</span>
+                    <span>Tasks</span>
+                  </div>
+                  <a href="https://github.com/Nafiz204/lms_with_intelligent_task_planner" class="btn btn-warning btn-block">See Project</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <article class="project-card h-100">
+                <img src="./images/fitness.svg" class="project-media" alt="Gym management illustration" />
+                <div class="project-body">
+                  <div class="project-meta">Management system</div>
+                  <h3>Gym Management System</h3>
+                  <p>
+                    A streamlined platform for handling members, trainers,
+                    payments, and membership packages.
+                  </p>
+                  <div class="project-tags">
+                    <span>Operations</span>
+                    <span>Members</span>
+                    <span>Payments</span>
+                  </div>
+                  <a href="https://github.com/Nafiz204/Gym-Management-System" class="btn btn-warning btn-block">See Project</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <article class="project-card h-100">
+                <img src="images/web_scraping.svg" class="project-media" alt="Library assistant illustration" />
+                <div class="project-body">
+                  <div class="project-meta">Library tool</div>
+                  <h3>Library Assistant Tool</h3>
+                  <p>
+                    A library management application designed to simplify daily
+                    administrative tasks for staff.
+                  </p>
+                  <div class="project-tags">
+                    <span>Automation</span>
+                    <span>Records</span>
+                    <span>Workflow</span>
+                  </div>
+                  <a href="https://github.com/Nafiz204/Library_Assistant_Tool" class="btn btn-warning btn-block">See Project</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <article class="project-card h-100">
+                <img src="images/Office.jpg" class="project-media project-photo" alt="Office management screenshot" />
+                <div class="project-body">
+                  <div class="project-meta">Office system</div>
+                  <h3>Office Management System</h3>
+                  <p>
+                    A practical office operations system for organizing tasks,
+                    schedules, and communication.
+                  </p>
+                  <div class="project-tags">
+                    <span>Tasks</span>
+                    <span>Scheduling</span>
+                    <span>Communication</span>
+                  </div>
+                  <a href="https://github.com/Nafiz204/Office-Management-System" class="btn btn-warning btn-block">See Project</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-shell">
+        <div class="container">
+          <div class="section-heading light-heading">
+            <span class="eyebrow">Contact</span>
+            <h2>Let us connect and build something useful.</h2>
+          </div>
+          <div class="row contact-grid">
+            <div class="col-md-6 col-lg-3 mb-3">
+              <a class="media_link" href="https://github.com/Nafiz204">
+                <span>GitHub</span>
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+              <a class="media_link" href="https://www.facebook.com/nafiz.imtiaz.204/">
+                <span>Facebook</span>
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+              <a class="media_link" href="https://www.instagram.com/nafiz_imtiaz11/">
+                <span>Instagram</span>
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+              <a class="media_link highlight" href="mailto:nafiz.imtiaz3@northsouth.edu" role="button" tabindex="0">
+                <span>Email</span>
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <p>Built by Nafiz Imtiaz.</p>
+        <a href="#home">Back to top</a>
       </div>
-    </div>
+    </footer>
 
-    <!-- Social Media Section -->
-    <div id="social-media" class="container-fluid">
-      <div class="container text-white py-5">
-        <h4 class="text-warning">Social Media</h4>
-        <h1 class="m-heading">Let's be friends</h1>
-        <div class="row pt-5">
-          <div class="col-6 col-md-3">
-            <a class="media_link btn" href="https://github.com/Nafiz204">
-              <div class="row">
-                <div class="col-6 d-flex justify-content-start">
-                  <h3 class="m-0 pt-2 text-white">Github</h3>
-                </div>
-                <div class="col-6 d-flex justify-content-end align-items-center">
-                  <i class="fab fa-github fa-2x text-secondary"></i>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-6 col-md-3">
-            <a class="media_link btn" href="https://www.facebook.com/nafiz.imtiaz.204/">
-              <div class="row">
-                <div class="col-6 d-flex justify-content-start">
-                  <h3 class="m-0 pt-2 text-white">Facebook</h3>
-                </div>
-                <div class="col-6 d-flex justify-content-end align-items-center">
-                  <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-6 col-md-3">
-            <a class="media_link btn" href="https://www.instagram.com/nafiz_imtiaz11/">
-              <div class="row">
-                <div class="col-6 d-flex justify-content-start">
-                  <h3 class="m-0 pt-2 text-white">Instagram</h3>
-                </div>
-                <div class="col-6 d-flex justify-content-end align-items-center">
-                  <i class="fab fa-youtube fa-2x text-secondary"></i>
-                </div>
-              </div>
-            </a>
-          </div>
-
-            <div class="col-6 col-md-3">
-            <a class="media_link bg-warning btn" href="mailto:nafiz.imtiaz3@northsouth.edu">
-              <div class="row">
-              <div class="col-6 d-flex justify-content-start">
-                <h3 class="m-0 pt-2 text-dark">Email</h3>
-              </div>
-              <div class="col-6 d-flex justify-content-end align-items-center">
-                <i class="fas fa-envelope fa-2x text-secondary"></i>
-              </div>
-              </div>
-            </a>
-            </div>
-               
-                </div>
-              </div>
-            </a>
+    <script>
+      // Handle email link clicks for local file context
+      document.addEventListener('DOMContentLoaded', function() {
+        const emailLink = document.querySelector('a[href="mailto:nafiz.imtiaz3@northsouth.edu"].media_link');
+        if (emailLink) {
+          emailLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.location.href = 'mailto:nafiz.imtiaz3@northsouth.edu';
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
           </div>
         </div>
       </div>
