@@ -174,8 +174,8 @@ a:hover {
 
 .hero h1 {
   max-width: 11ch;
-  font-size: clamp(2.8rem, 6vw, 5.7rem);
-  line-height: 0.96;
+  font-size: clamp(2.6rem, 5.2vw, 4.9rem);
+  line-height: 0.98;
 }
 
 .lead-copy {
@@ -444,7 +444,15 @@ a:hover {
   }
 
   .hero h1 {
-    max-width: 13ch;
+    max-width: 12ch;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero h1 {
+    max-width: 14ch;
+    font-size: clamp(2.35rem, 3.55vw, 3.95rem);
+    line-height: 1.02;
   }
 }
 
